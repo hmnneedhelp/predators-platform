@@ -1,1 +1,17 @@
 @import "tailwindcss";
+@font-face {
+    font-family: "Panama Demo";
+    src: url('/Panama Demo Regular.otf');
+}
+@font-face {
+    font-family: "Inter Tight";
+    src: url("/InterTight.ttf");
+}
+
+.panamaDemo{
+    font-family: 'Panama Demo';
+}
+#root{
+    background-color: #171717;
+    font-family: "Inter Tight";
+}
