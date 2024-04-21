@@ -15,3 +15,44 @@
     background-color: #171717;
     font-family: "Inter Tight";
 }
+.bruh:hover svg path{
+    fill:#c2410c
+}
+.bruh:hover div{
+    background-color: #c2410c;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #9d9d9d;
+}
+
+::selection {
+    background: transparent;
+    color: #EA580C;
+}
+@keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .modal-slide-up {
+    animation: slideUp 0.3s forwards;
+  }

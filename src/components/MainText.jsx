@@ -10,11 +10,13 @@ export default function MainText() {
         <img
           src={blink}
           className="absolute top-0 inset-0 ml-[-62px] mt-[-10px]"
+          draggable={false}
         />
         <p>ХИЩНИКИ</p>
         <img
           src={blink}
           className="absolute right-0 inset-y-0 mr-[-78px] rotate-[60deg] mt-[100px]"
+          draggable={false}
         />
       </div>
       <div className="!w-[50px] ml-[-0px] brightness-75 text-clip overflow-hidden flex justify-around pr-12">
