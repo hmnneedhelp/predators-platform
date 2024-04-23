@@ -11,9 +11,9 @@ const Home = () => {
   
   return (
     <div className="bg-neutral-900 py-6 text-white w-5/6 h-screen mx-auto">
-      <div className="flex flex-row justify-between py-6 " onClick={()=>setModal(true)}>
+      <div className="flex flex-row justify-between py-6 " >
         <img src={icon} draggable={false} />
-        <div className="bg-white text-black py-4 px-6 rounded-[48px] hover:backdrop-blur-sm hover:bg-white/30">
+        <div className="bg-white text-black py-4 px-6 rounded-[48px] hover:backdrop-blur-sm hover:bg-white/30" onClick={()=>setModal(true)}>
           Войти
         </div>
       </div>
