@@ -1,17 +1,5 @@
 import React from "react";
-
-const Pill = ({ isProf, prof, categories = "React" }) => {
-  return (
-    <div
-      className={`rounded-[14px] px-3 py-2 ${
-        isProf ? "bg-neutral-500" : "bg-neutral-700"
-      } `}
-      style={{ border: "1px solid #404040" }}
-    >
-      {isProf ? prof : categories}
-    </div>
-  );
-};
+import Pill from "./Pill";
 
 function PartCard({
   img,
