@@ -66,7 +66,7 @@ function Profile({name="Аян Пахомов", birthdate="30.06.2003", study="�
         </div>
       </div>
       <div className='flex flex-row gap-24 mt-16'>
-        <div className='flex flex-col gap-6'>
+        <div className='flex flex-col w-40 gap-6'>
             <p>
               Социальные сети
             </p>
@@ -74,7 +74,7 @@ function Profile({name="Аян Пахомов", birthdate="30.06.2003", study="�
 
             </div>
         </div>
-        <div className='flex flex-col gap-6'>
+        <div className='flex flex-col gap-6 w-full'>
           <p>О себе</p>
           <p>{about}</p>
         </div>
