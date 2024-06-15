@@ -1,25 +1,8 @@
 import React from "react";
 import Button from "./Button";
 import Close from "../assets/Close.svg";
-import axios, {AxiosError} from "axios";
 
 function Modal({ modal = false, onClose }) {
-  console.log(import.meta.env)
-  const body= {
-    "login":"neoko",
-    "password":"password"
-  }
-  axios.post('http://185.84.163.102/api/v1/auth/login', body, {
-})
-.then(response => {
-  console.log(response);
-})
-.catch(error => {
-  console.error(error.message); // log the error message to the console
-  console.error(error.config); // log the request config to the console
-});
-
-  console.log(fetch(import.meta.env.VITE_ENDPOINT_UTL, body, {mode:cors}))
 
   if (modal === false) return null;
   return (
