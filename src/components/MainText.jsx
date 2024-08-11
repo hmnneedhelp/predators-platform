@@ -19,13 +19,13 @@ export default function MainText() {
           draggable={false}
         />
       </div>
-      <div className="!w-[50px] ml-[-0px] brightness-75 text-clip overflow-hidden flex justify-around pr-12">
+      <div className="!w-[50px] ml-[-0px] brightness-75 text-clip overflow-hidden flex justify-center pr-12">
         И
       </div>
-      <div className="!w-[50px] brightness-50 text-clip overflow-hidden flex justify-around pr-12">
+      <div className="!w-[50px] brightness-50 text-clip overflow-hidden flex justify-center pr-12">
         И
       </div>
-      <div className="!w-[50px] brightness-50 text-clip overflow-hidden flex justify-around pr-12">
+      <div className="!w-[50px] brightness-50 text-clip overflow-hidden flex justify-center pr-12">
         И
       </div>
     </div>
